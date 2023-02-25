@@ -32,20 +32,19 @@
 require("dotenv").config();
 let gg = process.env.MODS;
 if (!gg) {
-  gg = "918602306506";   // You can Change this number //
+  gg = "8889890829";   // You can Change this number //
 }
 
 // -------------------------------------------------------------- //
 
 
 global.owner = gg.split(",");
-global.mongodb = process.env.MONGODB || "mongodb://ucbp1vv4nnejgtoh66m9:hZJxgnOmxbG3QoiPevXZ@n1-c2-mongodb-clevercloud-customers.services.clever-cloud.com:27017,n2-c2-mongodb-clevercloud-customers.services.clever-cloud.com:27017/bzw32v37b8ku7lu?replicaSet=rs0";
-global.sessionId = process.env.SESSION_ID || "ayush123ok";
+global.mongodb = process.env.MONGODB || "mongodb://u7eomavn1r50ghslsswq:QyC5kthc3ECXNlpMQfYl@n1-c2-mongodb-clevercloud-customers.services.clever-cloud.com:27017,n2-c2-mongodb-clevercloud-customers.services.clever-cloud.com:27017/bhodkeqvy4jjmyc?replicaSet=rs0"
 global.prefa = process.env.PREFIX || ".";
 global.tenorApiKey =
   process.env.TENOR_API_KEY || "AIzaSyCyouca1_KKy4W_MG1xsPzuku5oa8W358c";
-global.packname = process.env.PACKNAME || `Ayush`;
-global.author = process.env.AUTHOR || "by: Ayush";
+global.packname = process.env.PACKNAME || `Purple DOGE`;
+global.author = process.env.AUTHOR || "by: hAKAISHIN";
 global.port = process.env.PORT || "8000";
 
 module.exports = {
